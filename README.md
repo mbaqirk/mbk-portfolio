@@ -1,73 +1,178 @@
-# Welcome to your Lovable project
+# 🌐 Mohammad Baqir Khan - Personal Portfolio
 
-## Project info
+A modern and responsive personal portfolio website built with **React, TypeScript, and Vite** to showcase my skills, projects, education, and professional journey.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Live Demo
 
-## How can I edit this code?
+🔗 **Portfolio:** https://mbaqirk.netlify.app/
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📖 Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This portfolio reflects my journey as an **MCA Student and Aspiring Software Developer** passionate about building real-world applications, exploring emerging technologies, and creating impactful digital experiences.
 
-Changes made via Lovable will be committed automatically to this repo.
+The website is designed with smooth animations, modern UI components, and responsive layouts for an engaging user experience.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🎨 Modern & Responsive UI
+- ⚡ Fast Performance with Vite
+- 🎬 Smooth Animations using Framer Motion
+- ⌨️ Dynamic Typing Effect
+- 📄 Resume Section
+- 📁 Projects Showcase
+- 🛠 Skills Display
+- 🎓 Education Timeline
+- 📬 Contact Section
+- 🔗 Social Media Integration
+- ⬆️ Back To Top Navigation
+- 🧩 Reusable UI Components using shadcn/ui
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠 Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Frontend
+- React.js
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+- Tailwind CSS
 
-# Step 3: Install the necessary dependencies.
-npm i
+### UI & Animation
+- Framer Motion
+- Lucide React
+- React Icons
+- shadcn/ui
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+
+### Deployment
+- Netlify
+
+---
+
+## 📂 Website Sections
+
+### 🏠 Hero
+Animated introduction with profile image, role typing effect, and quick navigation.
+
+### 👨‍💻 About
+Brief introduction and personal background.
+
+### 🛠 Skills
+Technical skills and technologies.
+
+### 🎓 Education
+Academic journey and qualifications.
+
+### 📁 Projects
+Showcase of development projects and work.
+
+### 📄 Resume
+Resume preview and download option.
+
+### 📬 Contact
+Easy ways to connect and collaborate.
+
+---
+
+## 📁 Project Structure
+
+```bash
+src
+├── assets
+├── components
+│   ├── sections
+│   │   ├── About.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Education.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Resume.tsx
+│   │   └── Skills.tsx
+│   └── ui
+├── hooks
+├── lib
+├── pages
+├── test
+├── App.tsx
+└── main.tsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mbaqirk/mbk-portfolio.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd mbk-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open browser:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+http://localhost:8080
+```
 
-**Use GitHub Codespaces**
+Build for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 👨‍💻 Developer
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Mohammad Baqir Khan
 
-## How can I deploy this project?
+**MCA Student | Aspiring Software Developer**
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+> Code. Create. Innovate.  
+> Exploring the Future of AI.  
+> Future-Ready Developer.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🔗 Connect With Me
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- GitHub: https://github.com/mbaqirk
+- LinkedIn: https://linkedin.com/in/mbaqirk
+- Instagram: https://instagram.com/_baqir_110
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## ⭐ Support
+
+If you found this project useful or inspiring, consider giving it a **⭐ on GitHub**.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
